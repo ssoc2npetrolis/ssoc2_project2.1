@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    color: #22333b;
+}
+
+.header {
+    background-color: #22333b;
+    color: #EAE0D5;
+    text-align: center;
+    height: 10%;
+    font-size: 48px;
+}
+
+.calcMenu {
+    text-align: center;
+    background-color: #375360;
+    color: #EAE0D5;
+    padding: 16px;
+}
+
+.calcMenuP {
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.calcContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex:content;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuButton {
+    border: #D9E4E9 1px solid;
+    color: #EAE0D5;
+    background-color: #426473;
+    border-radius: 0.8em;
+    /* width: 220px; */
+    padding: 8px;
+    /* height: 72px; */
+}
+
+.menuButton:hover {
+    background-color: #8DAEBE;
+    transition: ease-in 200ms;
+}
+
+.calcDescription {
+    height: 35%;
+    padding-top: 24px;
+}
+
+.calcDescription > h3 {
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+
+.calcDescriptionP, .calcDescriptionP2 {
+    margin-top: 6px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.calcImg {
+    margin-left: 35%;
+    margin-top: 12px;
+    width: 551px;
+    height: 180px;
+    display: flex;
+}
+
+.calcDisplay {
+    margin-left: 25%;
+    width: 50%;
+    background-color: white;
+    height: 25%;
+    border: #22333b 3px solid;
+    border-radius: 0.7em;
+    margin-top: 32px;
+    padding: 26px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.inputfield {
+    margin-top: 8px;
+}
+
+.calcButton {
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.calcResults {
+    font-size: 32px;
+}
+
+.footer {
+    height: 3%;
+    text-align: center;
+    width: 100%;
+    background-color: #22333b;
+    bottom: 0;
+    position: absolute;
+    font-size: 14px;
+    color: #EAE0D5;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0443ed;
+    box-shadow: 0 0 8px #55caf6;
+    background-color: transparent;
+}
+
+.inputfieldRed {
+    outline: none;
+    border-color: #ec0e1c;
+    box-shadow: 0 0 8px #ec0e1c;
+    background-color: #fc8d94;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #EAE0D5;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/90degtriangle.js" defer></script>
+    <script src="./js/circle.js" defer></script>
+    <script src="./js/square-rect.js" defer></script>
+    <script src="./js/trianglearea.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSOC2 - Project 2: Υπολογιστής Εμβαδόν</title>
+</head>
+<body onload="indexBody()">
+    <div class="header">Υπολογιστής Εμβαδόν</div>
+    <div class="calcMenu">
+    <p class="calcMenuP">Παρακαλώ επιλέξτε τον υπολογισμό που θέλετε να πραγματοποιήσετε:</p>
+        <div class="calcContainer">
+            <div class="menuButton indexBtn">Αρχική</div>
+            <div class="menuButton triangleBtn">Εμβαδόν Τριγώνου</div>
+            <div class="menuButton degBtn">Εμβαδόν Ορθογωνίου Τριγώνου</div>
+            <div class="menuButton squareBtn">Εμβαδόν Τετράγωνου / Ορθογωνίου Παραλληλογράμμου</div>
+            <div class="menuButton circleBtn">Εμβαδόν Επιφάνειας Κύκλου</div>
+        </div>
+    </div>
+    <div class="calcDescription">
+        <h3 class="calcDescriptionH3"></h3>
+        <p class="calcDescriptionP"></p>
+        <p class="calcDescriptionP2" id="para2">Αποτελεί μια εναλλακτική υλοποίηση της πρώτης έκδοχης της σελίδας η οποία λειτουργεί ως single page html με το περιεχόμενο να αλλάζει δυναμικά ανάλογα την επιλογή του χρήστη.</p>
+        <p class="calcDescriptionP2" id="para3">Επέλεξα να ασχοληθώ με τους υπολογισμούς εμβαδόν για διάφορα αντικείμενα όπως το τρίγωνο, το τετράγωνο και τον κύκλο ώστε να υπάρχει μια συνάφεια των υπολογισμών που παρέχει η ιστοσελίδα.</p>
+        <p class="calcDescriptionP2" id="para4">Μετά απο αρκετή προσπάθεια, διορθώσεις και αλλαγές αυτό αποτελεί το τελικό αποτέλεσμα της εργασίας μου και οποιαδήποτε ανατροφοδότηση είναι ευπρόσδεκτη.</p>
+            <div class="calcImg" id="imgDiv">
+                <img class="img1">
+                <img class="img2">
+            </div>
+</div>
+        <div class="calcDisplay" id="calcDisplayID">
+        <div class="inputs">
+            <div class="inputfield">A  <input id="a"></input></div>
+            <div class="inputfield" id="inputDisplayB">B  <input id="b"></input></div>
+            <div class="inputfield" id="inputDisplayC">C  <input id="c"></input></div>
+            <button class="calcButton" id="calcBtnOnClick">Υπολογισμός</button>
+        </div>
+        <div class="calcResults"></div>
+    </div>
+    <div class="footer">Δημιουργήθηκε απο τον μαθητή Πετρολή Νικόλαο για την εργασία Project 2 του Start School of Code της SocialInnov.</div>
+    
+    <script src="./js/selection.js"></script>
+</body>
+</html>
